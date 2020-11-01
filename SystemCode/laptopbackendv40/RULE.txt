@@ -1,0 +1,30 @@
+if price < (int)5001 then budget_type = low
+if price > (int)5000 then budget_type = medium
+if price > (int)8000 then budget_type = high
+if purpose = video then cpu_rank = (int)3 and ram =(int)4
+if purpose = video and budget_type = medium then cpu_rank = (int)5 and ram=(int)4
+if purpose = video then video_type = 1 and thin_type = 1
+if purpose = video then battery_life = long
+if purpose = video then weight_type = light
+if purpose = work then business_type=1 and ram=(int)4
+if purpose = work then cpu_rank = (int)5
+if purpose = work and budget_type = medium then ram=(int)8
+if purpose = study then cpu_rank = (int)5 and ram = (int)8
+if purpose = study then gpu_memory = (int)4
+if purpose = game then cpu_rank = (int)7 and ram=(int)8
+if purpose = game then game_type = 1 and screen_size = (int)16
+if software = 2D then gpu_memory = (int)2 
+if software = 3D then and gpu_memory = (int)4 and ram = (int)8
+if software = DP then cpu_rank=(int)7 and gpu_memory = (int)6
+if software = DP then ram = (int)16
+if study_purpose = reading then ram=(int)4 and thin_type = 1
+if study_purpose = deeplearning then gpu_memory = (int)6 and ram = (int)16
+if game_3A = 3A then ram = (int)16
+if game_3A = 3A then gpu_memory =(int)6
+if brand_apple = apple then is_apple = 1
+if rgb_require=true then keyboard_haslight = 1
+if bringout = yes then thin_type = 1  and weight_type = light
+if bringout = yes then battery_life = long
+if screen = big then screen_size = (int)17 
+if screen = medium then screen_size = (int)15
+if screen = small then screen_size = (int)13
