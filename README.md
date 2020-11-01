@@ -1,7 +1,7 @@
 ﻿## SECTION 1 : PROJECT TITLE
 ## Laptop Recommendation System
 
-<img src="SystemCode/frondend source code/dist/read1.jpg"
+<img src="SystemCode\laptopbackendv40\pages/read1.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
@@ -33,7 +33,7 @@ Our team works very happily on this project and hopes that the project can be us
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-<img src="SystemCode/frondend source code/dist/read2.jpg"
+<img src="SystemCode\laptopbackendv40\pages/read2.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
